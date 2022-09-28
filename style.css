@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--brand-color);
+  max-width: 100%;
+}
+
+.navbar {
+  margin: auto;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--mid-color);
+}
