@@ -27,3 +27,21 @@ body {
   max-width: 100px;
   border: 0.5rem solid black;
 }
+
+.website-links ul {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+  color: var(--brand-color);
+}
+
+.website-links ul li {
+  font-size: xx-large;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.website-links ul li:hover {
+  padding: 1px;
+  box-shadow: 1px 1px;
+}
