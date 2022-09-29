@@ -15,3 +15,14 @@ body {
   align-items: center;
   background-color: var(--mid-color);
 }
+
+.brand-logo {
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.brand-logo img {
+  max-width: 100px;
+  border: 0.5rem solid black;
+}
