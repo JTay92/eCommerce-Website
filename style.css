@@ -45,3 +45,20 @@ body {
   padding: 1px;
   box-shadow: 1px 1px;
 }
+
+@media (width < 1000px) {
+  .navbar {
+    max-width: 100%;
+  }
+
+  .website-links ul {
+    flex-wrap: wrap;
+  }
+
+  .website-links ul li {
+    font-size: x-large;
+  }
+}
+
+@media (width < 500px) {
+}
