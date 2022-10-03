@@ -6,6 +6,7 @@ body {
 }
 
 .navbar {
+  max-width: 75%;
   margin: auto;
   padding-left: 50px;
   display: flex;
@@ -14,4 +15,73 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: var(--mid-color);
+}
+
+.brand-logo {
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.brand-logo img {
+  max-width: 100px;
+  border: 0.5rem solid black;
+}
+
+.toggle-button {
+  position: absolute;
+  display: none;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  right: 15rem;
+  width: 30px;
+  height: 21px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.website-links ul {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+  color: var(--brand-color);
+}
+
+.website-links ul li {
+  font-size: xx-large;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.website-links ul li:hover {
+  padding: 1px;
+  box-shadow: 1px 1px;
+}
+
+@media (width < 1000px) {
+  .navbar {
+    max-width: 100%;
+  }
+
+  .website-links ul {
+    flex-wrap: wrap;
+  }
+
+  .website-links ul li {
+    font-size: x-large;
+  }
+}
+
+@media (width < 500px) {
+  .toggle-button {
+    display: flex;
+    margin: auto;
+    right: 1rem;
+  }
 }
