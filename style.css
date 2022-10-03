@@ -79,4 +79,9 @@ body {
 }
 
 @media (width < 500px) {
+  .toggle-button {
+    display: flex;
+    margin: auto;
+    right: 1rem;
+  }
 }
