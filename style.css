@@ -79,14 +79,24 @@ body {
 }
 
 @media (width < 550px) {
-  .toggle-button {
-    display: flex;
-    margin: auto;
-    right: 2rem;
+  .body {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
   }
 
   .navbar {
-    /* display: block; */
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .toggle-button {
+    display: inline-flex;
+      top: 3.75rem;
+      right: 2rem;
+    position: absolute;
   }
 
   .website-links {
