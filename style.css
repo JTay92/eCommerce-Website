@@ -113,5 +113,6 @@ body {
   }
 
   .website-links.active {
-    display: block;
+    display: flex;
+    align-items: center;
   }
