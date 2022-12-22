@@ -78,10 +78,41 @@ body {
   }
 }
 
-@media (width < 500px) {
-  .toggle-button {
-    display: flex;
-    margin: auto;
-    right: 1rem;
+@media (width < 550px) {
+  .body {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    text-align: center;
   }
-}
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .toggle-button {
+    display: inline-flex;
+      top: 3.75rem;
+      right: 2rem;
+    position: absolute;
+  }
+
+  .website-links {
+    display: none;
+    width: 100%;
+    /* align-items: center; */
+  }
+
+  .website-links ul {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 1rem;
+  }
+
+  .website-links.active {
+    display: flex;
+    align-items: center;
+  }
