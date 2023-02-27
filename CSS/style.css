@@ -101,9 +101,11 @@ body {
 
   .website-links {
     display: none;
-    width: 100%;
+    width: 75%;
     flex-direction: column;
     align-items: center;
+    padding: 0;
+    margin: 0;
   }
 
   .website-links.active {
@@ -114,5 +116,9 @@ body {
     width: 100%;
     flex-direction: column;
     align-items: center;
+  }
+
+  .website-links ul li {
+    font-size: small;
   }
 }
